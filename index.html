@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Landing.jobs clone</title>
+</head>
+<body>
+    
+    <header class=" flex w-full bg-indigo-900 shadow-xl">
+        <nav class="container mx-auto w-full flex-wrap flex flex items-center justify-between my-5 ">
+            <span class="flex flex-col">
+                <a href="" class="text-md text-blue-200 uppercase font-semibold">landing.jobs</a>
+                <span class="border "></span>
+            </span>
+            <div class="flex">
+                <ul class="flex ">
+                    <li><a href="" class="text-md text-blue-200 uppercase font-semibold mr-6">jobs</a></li>
+                    <li><a href=""  class="text-md text-blue-200 uppercase font-semibold mr-6">resources</a></li>
+                    <li><a href=""  class="text-md text-blue-200 uppercase font-semibold mr-6">for employes</a></li>
+                    <li><a href=""  class="text-md text-blue-200 uppercase font-semibold mr-6">login</a></li>
+                    <li><a href=""  class="text-md text-blue-200 uppercase font-semibold  bg-orange-500 py-1 px-3 rounded">sign up</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <section class="flex w-full bg-blue-500">
+       <div class="flex container mx-auto w-full py-4">
+           <div class="w-1/2 mr-3">
+                <input class="bg-white h-10 w-full pl-12" type="text" placeholder="Job title, keywords..."/>
+           </div>
+           <div class="w-1/2 flex">
+                <input class="flex flex-grow bg-white h-10 pl-12 mr-3 "   type="text"  placeholder="Anywhere"/>
+                <button class="border h-10 px-4 rounded hover:bg-white"><span class=" font-semibold text-white uppercase hover:text-blue-500">find me a job</span></button>
+            </div>
+       </div>
+    </section>
+
+    <section class="flex w-full bg-gray-200">
+        
+        <div class="flex container mx-auto">
+            <div class="w-1/5 py-8">
+                 <button class="flex items-center border rounded border-gray-500 px-3 hover:bg-gray-400"><span class="text-sm text-gray-700 uppercase tracking-wide">clear filters</span></button>
+            </div>
+            <div class="w-4/5 py-8">
+                <span class="text-sm text-blue-900 font-semibold">124 jobs anywhere</span>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+</html>
